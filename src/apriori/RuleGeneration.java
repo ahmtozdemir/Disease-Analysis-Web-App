@@ -22,7 +22,7 @@ public class RuleGeneration {
 		this.maxLengthOfFreqItemsets = maxLengthOfFreqItemsets;
 		this.freqK = freqK;
 		this.noToAttr = noToAttr;
-		bw = new BufferedWriter(new FileWriter("C:\\Users\\Mevlana\\Intellij Projeler\\Hastalik-Analiz\\web\\data\\AssociationRules.txt"));
+		bw = new BufferedWriter(new FileWriter("C:\\Users\\Ahmet\\Intellij Projects\\Disease-Analysis\\web\\data\\AssociationRules.txt"));
 		generateRules();
 		bw.close();
 	}
