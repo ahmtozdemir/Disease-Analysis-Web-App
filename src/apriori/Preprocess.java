@@ -24,7 +24,7 @@ public class Preprocess{
 	
 	void preprocess() throws IOException{
 		BufferedReader br = new BufferedReader(new FileReader(transactionFile));
-		BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Mevlana\\Intellij Projeler\\Hastalik-Analiz\\web\\data\\ProcessedTransaction.txt"));
+		BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Ahmet\\Intellij Projects\\Disease-Analysis\\web\\data\\ProcessedTransaction.txt"));
 		String s;
 		while((s=br.readLine())!=null){	
 			bw.write(convert(s));
