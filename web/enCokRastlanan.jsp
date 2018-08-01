@@ -1,12 +1,10 @@
-
 <!DOCTYPE html>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Hastalik Arastirma Platformu</title>
-    
+    <title>Hastalik Arastirma Platformu</title>   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Codeply">
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
@@ -19,17 +17,11 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand page-scroll" href="#first"><i class="ion-ios-analytics-outline"></i> Hastalik Arastirma Platformu</a>
-            </div>
-         
+            </div>      
         </div>
     </nav>
-
-
+    
     <header id="first">
-
-
-
-
 
                   <div class="col-lg-3 col-lg-offset-5 text-center">
 
@@ -41,14 +33,8 @@
                             <br/>
 
                   </div>
-
-
-
-        
+      
     </header>
-
-
-  
 
     <!--scripts loaded here -->
     <script src="./js/jquery.min.js"></script>
