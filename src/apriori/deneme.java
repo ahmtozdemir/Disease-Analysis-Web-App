@@ -6,8 +6,7 @@ import java.io.LineNumberReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class deneme
-{
+public class deneme {
     public static void main(String[] args) throws IOException {
         deneme d=new deneme();
         List<String>dizi=new ArrayList<>();
@@ -17,13 +16,11 @@ public class deneme
         }
     }
 
-    private List<String> enCokRastlananHastalikKayitlariGetir() throws IOException
-    {
+    private List<String> enCokRastlananHastalikKayitlariGetir() throws IOException {
         List<String>dizi=new ArrayList<>();
-        LineNumberReader lineReader = new LineNumberReader(new FileReader("C:\\Users\\Mevlana\\Intellij Projeler\\Hastalik-Analiz\\web\\data\\frequentItemsets.txt"));
+        LineNumberReader lineReader = new LineNumberReader(new FileReader("C:\\Users\\Ahmet\\Intellij Projects\\Disease-Analysis\\web\\data\\frequentItemsets.txt"));
         String line;
-        while ((line = lineReader.readLine()) != null)
-        {
+        while ((line = lineReader.readLine()) != null) {
             dizi.add(line);
         }
         return  dizi;
