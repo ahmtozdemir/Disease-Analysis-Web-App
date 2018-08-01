@@ -10,11 +10,9 @@ import java.util.Hashtable;
 import java.util.Set;
 
 public class Main{
-
 	public static void main(String[] args) throws IOException{
 		int noOfTransactions, noOfChildsInHT=4, maxItemsPerNodeInHT=5, noOfAttributes;
 		double minSup=.05, minConf=.5;
-
 
 		Preprocess p = new Preprocess(new File("C:\\Users\\Ahmet\\Intellij Projects\\Disease-Analysis\\web\\data\\yeni.txt"));
 		noOfTransactions = p.noOfTransactions;
