@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;
 
-public class FrequentItemsetGeneration{
+public class FrequentItemsetGeneration {
 	double minSup;
 	int noOfTransactions, noOfAttributes, maxLengthOfFreqItemsets, noOfChilds, maxItemsPerNode;
 	ArrayList<HashMap<ArrayList<Integer>,Integer>> freqK = new ArrayList<>();//freqK[0] = F1
