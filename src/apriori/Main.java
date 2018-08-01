@@ -16,7 +16,7 @@ public class Main{
 		double minSup=.05, minConf=.5;
 
 
-		Preprocess p = new Preprocess(new File("C:\\Users\\Mevlana\\Intellij Projeler\\Hastalik-Analiz\\web\\data\\yeni.txt"));
+		Preprocess p = new Preprocess(new File("C:\\Users\\Ahmet\\Intellij Projects\\Disease-Analysis\\web\\data\\yeni.txt"));
 		noOfTransactions = p.noOfTransactions;
 		noOfAttributes = p.noOfAttributes;
 		long start = System.currentTimeMillis();
@@ -24,7 +24,7 @@ public class Main{
 		System.out.println("Generating Frequent Itemsets:");
 		FrequentItemsetGeneration f = new FrequentItemsetGeneration(noOfChildsInHT,maxItemsPerNodeInHT,minSup, noOfTransactions,noOfAttributes);
 
-		BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Mevlana\\Intellij Projeler\\Hastalik-Analiz\\web\\data\\frequentItemsets.txt"));
+		BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Ahmet\\Intellij Projects\\Disease-Analysis\\web\\data\\frequentItemsets.txt"));
 		Hashtable<Integer, String> noToAttr = p.noToAttr;
 		for(int k = 1; k <= f.maxLengthOfFreqItemsets; k++){
 			//bw.write("\nFrequent "+k+" Itemsets:\n");
